@@ -1,9 +1,9 @@
 body {
-	background-color: #B2E9FD;
+	background-color:#fda47d;
 }
 
 .header h2 {
-	color: #DC4247;
+	color: #f7efd2;
 }
 
 .header p {
@@ -14,3 +14,44 @@ body {
 	margin-top: 20px;
 }
 
+.headings{
+	font-family: 'Helvetica Neue';
+	font-weight: 300;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+/* .movie-poster{
+	height: 515px;
+	width: 348px;
+} */
+
+.col-4{
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.movie-title{
+	margin-top: 2%;
+	color: #50524F;
+	padding: 8px;
+	height: 45px;
+	font-size:medium;
+	font-weight:400;
+}
+
+.movie-release{
+	color: white;
+	background-color: grey;
+	padding: 3px;
+	margin-bottom: 0;
+	font-size: 110%;
+}
+
+.movie{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	padding: 0;
+}
