@@ -9,10 +9,20 @@
 </head>
 
 <body>
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link" href="./index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./watchlist.html">Watch List</a>
+    </li>
+  </ul>
   <div class="container">
     <div class="row">
       <div class="col-12 header text-center">
-        <h2 class="display-2">Scene It</h2>
+        <a href="" style="text-decoration: none;">
+          <h2 class="display-2">Scene It</h2>
+        </a>
         <p>Search for movies you want to watch.</p>
         <p>Save them to your list</p>
       </div>
@@ -22,7 +32,7 @@
         <form id="search-form">
           <div class="input-group input-group-lg">
             <input class="form-control search-bar" placeholder="Search for a movie..." />
-            <button class="btn btn-success input-group-btn" type="submit">
+            <button id="btn" class="btn btn-success input-group-btn" type="submit">
               Search
             </button>
           </div>
