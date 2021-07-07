@@ -16,13 +16,6 @@ function renderMovies(movieArray) {
     return movieHTMLArray.join('')
 }
 
-function arrayRemove(arr, value) { 
-    
-    return arr.filter(ele =>{ 
-        return ele != value; 
-    });
-}
-
 function removeFromWatchList(imdbID){
     let watchlistJSON = localStorage.getItem('watchlist');
     let watchlist = JSON.parse(watchlistJSON);
