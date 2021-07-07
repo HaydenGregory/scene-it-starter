@@ -5,7 +5,7 @@ const searchBar = document.querySelector('input')
 
 function renderMovies(movieArray) {
     const movieHTMLArray = movieArray.map(currentMovie => {
-        return `<div class="col-4">
+        return `<div class="col-lg-4 col-sm-6 col-xs-12 mb-5">
                     <div class="movie border border-secondary rounded">
                         <img src="${currentMovie.Poster}"></img>
                         <div class="headings">
