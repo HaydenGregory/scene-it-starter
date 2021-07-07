@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const searchValue = searchBar.value
         const urlEncodedSearchString = encodeURIComponent(searchValue)
         event.preventDefault()
-        fetch(`http://www.omdbapi.com/?apikey=59354c85&s=${urlEncodedSearchString}`).then(res => res.json()).then(data => {
+        fetch(`https://www.omdbapi.com/?apikey=59354c85&s=${urlEncodedSearchString}`).then(res => res.json()).then(data => {
             movieData = data.Search
             movieContainer.innerHTML = renderMovies(movieData)
             function saveToWatchList(imdbID) {
